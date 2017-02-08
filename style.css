@@ -2,9 +2,6 @@ html, body {
     height:100%;
 }
 
-img {
-    margin: 20px;
-}
 
 .heading {
     text-align: center;
@@ -30,13 +27,18 @@ img {
 .img-responsive {
     max-height:300px;
     margin: 15px auto;
+
 }
 
 .intro-text {
     background: #e6e6e6;
     padding: 30px;
 }
+.information {
+    background: #e6e6e6;
+    padding: 20px;
 
+}
 body {
     background: url("https://i.ytimg.com/vi/8Z7ZhqUbhD4/maxresdefault.jpg");
 }
