@@ -2,9 +2,12 @@ img {
     margin: 20px;
 }
 
-h1 {
+.heading {
     text-align: center;
-    color: blue;
+    background: #eee7ec;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 .gallery {
@@ -21,5 +24,6 @@ h1 {
 }
 
 .img-responsive {
+    max-height:300px;
     margin: 15px auto;
 }
