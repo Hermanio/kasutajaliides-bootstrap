@@ -8,5 +8,18 @@ h1 {
 }
 
 .gallery {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 0 auto;
+}
+
+.listing {
+    margin: 20px;
+    background: #ffaaa1;
+}
+
+.img-responsive {
+    margin: 15px auto;
 }
