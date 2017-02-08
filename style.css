@@ -1,10 +1,14 @@
+html, body {
+    height:100%;
+}
+
 img {
     margin: 20px;
 }
 
 .heading {
     text-align: center;
-    background: #eee7ec;
+    background: #e6e6e6;
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -20,10 +24,19 @@ img {
 
 .listing {
     margin: 20px;
-    background: #ffaaa1;
+    background: #e6e6e6;
 }
 
 .img-responsive {
     max-height:300px;
     margin: 15px auto;
+}
+
+.intro-text {
+    background: #e6e6e6;
+    padding: 30px;
+}
+
+body {
+    background: url("https://i.ytimg.com/vi/8Z7ZhqUbhD4/maxresdefault.jpg");
 }
